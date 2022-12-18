@@ -1,0 +1,73 @@
+body{
+    background-color: aqua;
+    margin-left: 20%;
+
+}
+.imagesContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.image{
+    height: 140px;
+    width: 140px;
+    margin: 40px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.imageName{
+    height: 80px;
+    width: 140px;
+    margin: 40px;
+    text-align: center;
+    margin-top: 10px;
+    border: 4px solid aqua;
+}
+
+.draganddropContainer{
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    border: 0px solid black;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+.ingrediants{
+    position: relative;
+    bottom: 0px;
+    left: 60px;
+    display: inline-block;
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+    display: none;
+}
+
+.pizzaimage{
+    height: 290px;
+    width: 290px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 36px;
+}
+
+.WhiteSpaceImage{
+    margin-left: 30px;
+    margin-top: 36px;
+    border-radius: 50%;
+    height: 290px;
+    width: 290px;
+}
+
+p{
+    height: 30px;
+    width: 590px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}

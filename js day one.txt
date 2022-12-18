@@ -1,0 +1,40 @@
+What are the functions and constructors?
+
+
+Function Constructors:
+1. Func const are use for creating objects in js.
+2. We can call the constructor directly.
+3. constructor name should starts with Caps.
+4. function Name(){
+.............}
+ var march = new Function()
+   Function( arg1, ar2, ....){
+     name : "";
+     class : " ";
+   }
+5.when we call the constructor , it will create an object.
+6.dont have any return stmt.
+7. Any varibale which gets created by using any constructor fun. 
+Then that variable will persists the properties that constructor function provides.
+var march = new Function()
+8. Adding property to constructor using prototype.
+
+Functions : 
+
+1 . Functions are defined by using keyword function followed by function name and open and closed paranthesis.
+
+2 . function will executed when they called . without calling the function of no use
+we have
+first order functions
+heigher order functions
+
+what is hoisting?
+1.using the variable or fun before defining it.
+2.calling the func before declaring.
+3. let and const doesnot support hoisting.(TDZ)
+4.var support hoisting, hoisting happen at the top of code.
+5.it will get memory located.
+6. whenever we call var , fun we need to initailaise them in before call.
+
+
+what is dom?
